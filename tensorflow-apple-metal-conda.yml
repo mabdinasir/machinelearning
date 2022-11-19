@@ -20,10 +20,15 @@ dependencies:
     - flask
     - boto3
     - ipykernel
+    - numpy
+    - wget
     - pip:
         - tensorflow-macos
         - tensorflow-metal
         - bayesian-optimization
         - gym
         - kaggle
-        
+
+
+# update conda env
+# conda env update -f tensorflow-apple-metal-conda.yml
