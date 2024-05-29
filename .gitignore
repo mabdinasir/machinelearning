@@ -1,1 +1,4 @@
 .DS_Store
+# I need to add a folder to the path called 'data' that contains the data files
+
+pyTorch/data/
